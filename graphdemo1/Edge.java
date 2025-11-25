@@ -78,6 +78,6 @@ public class Edge {
      * @return string showing start and end node IDs
      */
     public String toString() {
-        return "[" + "start=" + "+end=" + "]";
+        return "[" + start + "+" + end + "]";
     }
 }
